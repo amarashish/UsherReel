@@ -1,0 +1,32 @@
+body {
+    margin: 40px;
+    padding: 10px;
+    border: 0;
+    background-color: antiquewhite;
+  }
+
+  h1 h2 h3 h4 h5 h6 {
+    font-family: "Segoe UI" ,"Helvetica Neue","Helvetica","Lucida Grande","Arial","Ubuntu","Cantarell","Fira Sans","sans-serif";
+    color: rgba(45, 7, 7, 0.87);
+  }
+
+  .main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 40%;
+    width: 40%;
+    background-color: rgb(133, 85, 23);
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: rgb(57, 52, 52);
+  }
+
+  .catgories{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+
