@@ -10,7 +10,7 @@ function App() {
   }
 
   return (
-      <div style={{ textAlign: 'center', marginTop: '100px' }}>
+      <div className="LoginPage">
         {!selectedLogin ? (
           <div>
             <h2>Select a login type</h2>
