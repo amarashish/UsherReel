@@ -43,7 +43,7 @@ const LoginPage = ({ toggleForm }) => {
             <input type="checkbox" id="checkboxId" name="checkboxName" value="checkboxValue" ></input>
             <label for="checkboxId" style={{ marginLeft: '10px', fontSize: '15px' }}>Remember me</label>
           </div>
-          <p style={{ fontSize: '16px' }}>By clicking agree & join or continue you agree to the Ushereel <br /> <a href='' target='_black'>User Agreement.</a> <a href='' target='_black'>Privacy Policy.</a> and <a href='' target='_black'> Cookie Policy</a></p>
+          <p style={{ fontSize: '16px' }}>By clicking agree & join or continue you agree to the Ushereel <br /> <a href='.' target='_blank' >User Agreement.</a> <a href='' target='_blank' >Privacy Policy.</a> and <a href='' target='_blank'> Cookie Policy</a></p>
         </div>
         <button className='loginRegisterButton' type="submit"><b>Agree & Join</b></button>
       </form>
