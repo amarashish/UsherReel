@@ -48,9 +48,9 @@ const LoginPage = ({ toggleForm }) => {
         <button style={{margin:'10px', borderRadius: '20px', backgroundColor: '#315cfd', color: 'white', padding:'15px 30px', fontSize:'17px'}} type="submit"><b>Agree & Join</b></button>
       </form>
       <div style={{ display: 'flex', margin:'10px', alignItems:'center' }}>
-        <hr style={{ width: '35em', border: ' 1.2px solid black' }} />
+        <hr style={{ width: '15em', border: ' 1.2px solid black' }} />
         <h2>or</h2>
-        <hr style={{ width: '35em', border: '1.2px solid black' }} />
+        <hr style={{ width: '15em', border: '1.2px solid black' }} />
       </div>
       <div>
         <img src='https://i.ibb.co/ZH9XSq0/fb.jpg' style={{height:'50px', widows:'50px', margin:'8px'}} 
