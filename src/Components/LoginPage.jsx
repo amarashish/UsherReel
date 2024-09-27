@@ -59,9 +59,9 @@ const LoginPage = ({ toggleForm }) => {
         <img src='https://i.ibb.co/80pwHxM/apple.png' style={{height:'50px', widows:'50px', margin:'8px'}} />
       </div>
       <p>
-        Already on Ushereel? {' '}
+        New to Ushereel? {' '}
         <span onClick={toggleForm} style={{ cursor: 'pointer', color: 'blue' }}>
-          Sign in
+          Create an account
         </span>
       </p>
     </div>
