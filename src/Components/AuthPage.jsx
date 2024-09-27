@@ -3,7 +3,7 @@ import LoginPage from './LoginPage.jsx';
 import RegisterPage from './RegisterPage.jsx';
 
 // Main Component to Toggle Between Login and Register
-const AuthPage = (userType) => {
+const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true);
 
   const toggleForm = () => {
